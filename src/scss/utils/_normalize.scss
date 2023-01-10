@@ -3,7 +3,7 @@
   margin: 0;
   list-style: none;
   outline: none;
-  font-family: "Nunito", Roboto, system-ui, Tahoma, sans-serif;
+  font-family: "TT Firs Neue";
   box-sizing: border-box;
 }
 
@@ -15,7 +15,7 @@ html {
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  color: $black;
+  color: $text;
 }
 
 a,
@@ -27,17 +27,31 @@ h2,
 h3,
 h4,
 h5 {
-  color: $black;
+  color: $text;
 }
 
 h1 {
-  font-size: 48px;
+  font-weight: 500;
+  font-size: 76px;
+  line-height: 100%;
+}
+
+p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 76px;
+  line-height: 100%;
 }
 
 h2 {
   font-weight: 600;
-  font-size: 28px;
-  line-height: 30px;
+  font-size: 48px;
+  line-height: 62px;
 }
 
 a {

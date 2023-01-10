@@ -1,0 +1,17 @@
+@use "../../scss//utils/variables";
+
+.button {
+  padding: 18px 40px;
+  border-radius: 30px;
+  border: none;
+  background: variables.$liner;
+  cursor: pointer;
+}
+
+.text {
+  color: variables.$white;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+}

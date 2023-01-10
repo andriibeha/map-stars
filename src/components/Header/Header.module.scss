@@ -1,0 +1,59 @@
+.header_container {
+  display: flex;
+  align-items: center;
+
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.logo {
+  margin-right: 169px;
+}
+
+.icon {
+  &__globus {
+    width: 20px;
+    height: 20px;
+
+    margin-right: 8px;
+  }
+
+  &__arrow {
+    width: 8px;
+    height: 5px;
+  }
+}
+
+.navigation {
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    margin-right: 50px;
+  }
+
+  &__item:last-child {
+    margin-right: 119px;
+  }
+
+  &__link {
+    font-weight: 400;
+    font-size: 16px;
+  }
+}
+
+.language {
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+
+  margin-right: 33px;
+
+  &__text {
+    color: #111a45;
+
+    margin-right: 7px;
+  }
+}
