@@ -1,0 +1,7 @@
+@use "../../scss//utils/variables";
+
+.container {
+  background: variables.$liner;
+
+  border-radius: 60px;
+}

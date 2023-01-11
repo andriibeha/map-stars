@@ -5,8 +5,8 @@ import Button from "../Button";
 
 const Header = () => {
   return (
-    <header>
-      <div className={s.header_container}>
+    <header className={s.header}>
+      <div className={s.header__container}>
         <a href="#" className={s.logo}>
           <img src={logo} alt="logo" />
         </a>
@@ -45,12 +45,10 @@ const Header = () => {
           <svg className={s.icon__globus}>
             <use href={icon + "#icon-header_language"}></use>
           </svg>
-          <span className={s.language__text}>
-            Eng
-            <svg className={s.icon__arrow}>
-              <use href={icon + "#icon-header_language_arrow"}></use>
-            </svg>
-          </span>
+          <span className={s.language__text}>Eng</span>
+          <svg className={s.icon__arrow}>
+            <use href={icon + "#icon-header_language_arrow"}></use>
+          </svg>
         </div>
 
         <Button />
