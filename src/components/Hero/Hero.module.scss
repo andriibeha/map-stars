@@ -2,6 +2,186 @@
 
 .container {
   background: variables.$liner;
-
   border-radius: 60px;
+
+  display: flex;
+
+  overflow: hidden;
+
+  position: relative;
+
+  margin-bottom: 120px;
+}
+
+.description {
+  margin-left: 95px;
+  padding-top: 170px;
+
+  width: 479px;
+
+  margin-right: 130px;
+}
+
+.title {
+  color: variables.$white;
+
+  margin-bottom: 16px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+
+  color: variables.$white;
+
+  margin-bottom: 26px;
+}
+
+/* ELIPSE */
+.elipse__first {
+  opacity: 0.5;
+  border: 0.926087px solid #ff949b;
+
+  border-radius: 50%;
+
+  width: 458px;
+  height: 458px;
+
+  position: absolute;
+
+  top: 136px;
+  right: 162px;
+
+  z-index: 1;
+}
+
+.elipse__second {
+  opacity: 0.5;
+  border: 0.926087px solid #ff949b;
+
+  border-radius: 50%;
+
+  width: 665px;
+  height: 665px;
+
+  position: absolute;
+
+  top: 33px;
+  right: 58px;
+
+  z-index: 1;
+}
+
+.elipse__three {
+  opacity: 0.5;
+  border: 0.926087px solid #ff949b;
+
+  border-radius: 50%;
+
+  width: 852px;
+  height: 852px;
+
+  position: absolute;
+
+  top: -61px;
+  right: -35px;
+
+  z-index: 1;
+}
+
+.images {
+  padding-top: 29px;
+  margin-right: 65px;
+
+  width: 720px;
+  height: 641px;
+
+  &__list {
+    position: relative;
+
+    z-index: 2;
+  }
+
+  &__street_view {
+    position: absolute;
+
+    right: 487px;
+  }
+
+  &__google_maps {
+    position: absolute;
+
+    top: 105px;
+    right: 492px;
+  }
+
+  &__twitter {
+    position: absolute;
+
+    top: 220px;
+    right: 631px;
+  }
+
+  &__telegram {
+    position: absolute;
+
+    top: 265px;
+    right: 497px;
+  }
+
+  &__google {
+    position: absolute;
+
+    top: 384px;
+    right: 573px;
+  }
+
+  /* RIGTH SIDE */
+  &__faceboock {
+    position: absolute;
+
+    top: 51px;
+    right: 107px;
+  }
+
+  &__linkedin {
+    position: absolute;
+
+    top: 193px;
+    right: 187px;
+  }
+
+  &__watsap {
+    position: absolute;
+
+    top: 164px;
+    right: 0;
+  }
+
+  &__google_ads {
+    position: absolute;
+
+    top: 294px;
+    right: 89px;
+
+    z-index: 4;
+  }
+
+  &__instagram {
+    position: absolute;
+
+    top: 427px;
+    right: 0;
+  }
+
+  /* GIRL IMG */
+  &__girl {
+    position: absolute;
+
+    top: 37px;
+    right: 139px;
+
+    z-index: 3;
+  }
 }

@@ -51,7 +51,7 @@ const Header = () => {
           </svg>
         </div>
 
-        <Button />
+        <Button padding="18px 40px" bg={true} />
       </div>
     </header>
   );

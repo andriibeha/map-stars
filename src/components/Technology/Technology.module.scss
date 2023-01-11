@@ -1,0 +1,153 @@
+@use "../../scss//utils/variables";
+
+.container {
+  position: relative;
+
+  margin-bottom: 160px;
+}
+
+.action {
+  width: 113px;
+  height: 113px;
+
+  background-color: variables.$white;
+
+  border: none;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+
+  top: -177px;
+  left: 0;
+
+  &__text {
+    width: 83px;
+    height: 83px;
+
+    position: absolute;
+  }
+
+  &__arrow {
+    width: 24px;
+    height: 24px;
+
+    position: absolute;
+  }
+}
+
+.flex__container {
+  display: flex;
+}
+
+.img {
+  &__one {
+    width: 193px;
+    height: 155px;
+
+    position: absolute;
+
+    top: 67px;
+    right: 1046px;
+
+    z-index: 2;
+  }
+
+  &__two {
+    width: 314px;
+    height: 338px;
+
+    position: absolute;
+
+    top: 0;
+    right: 710px;
+
+    z-index: 2;
+  }
+
+  &__three {
+    width: 223px;
+    height: 155px;
+
+    position: absolute;
+
+    top: 360px;
+    right: 801px;
+
+    z-index: 2;
+  }
+
+  &__four {
+    width: 223px;
+    height: 192px;
+
+    position: absolute;
+
+    top: 245px;
+    right: 1046px;
+
+    z-index: 2;
+  }
+}
+
+.arrow__l {
+  width: 119px;
+  height: 71px;
+
+  position: absolute;
+
+  top: 222px;
+  right: 1170px;
+
+  z-index: 1;
+}
+
+.arrow__r {
+  width: 153px;
+  height: 91px;
+
+  position: absolute;
+
+  top: 289px;
+  right: 665px;
+
+  z-index: 1;
+}
+
+.description {
+  margin-left: 730px;
+
+  padding-top: 50px;
+  padding-bottom: 126px;
+}
+
+.title {
+  /* color: variables.$liner; */
+  font-size: 48px;
+
+  background: -webkit-linear-gradient(variables.$gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  margin-bottom: 16px;
+}
+
+.text__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  margin-bottom: 15px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+
+  color: variables.$second-color;
+}

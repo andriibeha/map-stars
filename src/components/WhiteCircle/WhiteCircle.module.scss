@@ -1,0 +1,29 @@
+@use "../../scss//utils/variables";
+
+.big__cirlce {
+  background-color: variables.$white;
+  box-shadow: variables.$box-shadow;
+
+  border: none;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small__circle {
+  background-color: variables.$white;
+  box-shadow: variables.$box-shadow;
+
+  border: none;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  display: block;
+}

@@ -1,11 +1,17 @@
 @use "../../scss//utils/variables";
 
 .button {
-  padding: 18px 40px;
   border-radius: 30px;
   border: none;
-  background: variables.$liner;
   cursor: pointer;
+
+  &__accent__color {
+    background: variables.$liner;
+  }
+
+  &__fecond__color {
+    background: variables.$second-color;
+  }
 }
 
 .text {
@@ -14,4 +20,17 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
+}
+
+.flex__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.figure {
+  width: 18px;
+  height: 9px;
+
+  margin-left: 12px;
 }

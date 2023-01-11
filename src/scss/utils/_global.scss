@@ -1,4 +1,20 @@
 .container {
-  margin-right: 60px;
-  margin-left: 60px;
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.section {
+  max-width: 1480px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section__small {
+  max-width: 1290px;
+  margin-right: auto;
+  margin-left: auto;
 }
