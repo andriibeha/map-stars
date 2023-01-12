@@ -2,8 +2,11 @@ import Advantages from "./Advantages";
 import Header from "./Header";
 import Hero from "./Hero";
 import HowWork from "./HowWork";
+import Packages from "./Packages";
 import Services from "./Services";
+import Social from "./Social";
 import Technology from "./Technology";
+import UserInfo from "./UserInfo";
 
 const App = () => {
   return (
@@ -16,6 +19,11 @@ const App = () => {
         <HowWork />
       </div>
       <Services />
+      <div className="container">
+        <UserInfo />
+        <Social />
+        <Packages />
+      </div>
     </>
   );
 };

@@ -1,0 +1,57 @@
+@use "../../scss//utils/variables";
+
+.user-info__container {
+  display: flex;
+}
+
+.user-info__margin__bottom {
+  margin-bottom: 160px;
+}
+
+.user-info {
+  &__description {
+    width: 560px;
+
+    padding-top: 140px;
+
+    margin-right: 111px;
+  }
+
+  &__upper__title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+
+    background: -webkit-linear-gradient(variables.$gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    margin-bottom: 12px;
+  }
+
+  &__title {
+    font-size: 50px;
+    line-height: 64px;
+
+    margin-bottom: 16px;
+  }
+
+  &__text {
+    color: variables.$second-color;
+  }
+
+  &__img__container {
+    width: 619px;
+    height: 720px;
+
+    background: variables.$liner;
+
+    border: none;
+    border-radius: 50px;
+  }
+
+  &__img {
+    padding: 137px 0 137px 99px;
+  }
+}

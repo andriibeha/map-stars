@@ -23,9 +23,9 @@ const Services = () => {
     <section className={s.section}>
       <div className={s.container}>
         <ul className={s.list}>
-          <li className={s.item__}>
+          <li className={`${s.item1} ${s.item}`}>
             <img
-              className={s.img__}
+              className={s.img__1}
               src={services_twiter}
               srcSet={`${services_twiter2x} 2x`}
               type="image/webp"
@@ -33,9 +33,9 @@ const Services = () => {
             />
           </li>
 
-          <li className={s.item__}>
+          <li className={`${s.item2} ${s.item}`}>
             <img
-              className={s.img__}
+              className={s.img__2}
               src={services_whatsap}
               srcSet={`${services_whatsap2x} 2x`}
               type="image/webp"
@@ -43,9 +43,9 @@ const Services = () => {
             />
           </li>
 
-          <li className={s.item__}>
+          <li className={`${s.item3} ${s.item}`}>
             <img
-              className={s.img__}
+              className={s.img__3}
               src={services_google_maps}
               srcSet={`${services_google_maps2x} 2x`}
               type="image/webp"
@@ -53,9 +53,9 @@ const Services = () => {
             />
           </li>
 
-          <li className={s.item__}>
+          <li className={`${s.item4} ${s.item}`}>
             <img
-              className={s.img__}
+              className={s.img__4}
               src={services_booking}
               srcSet={`${services_booking2x} 2x`}
               type="image/webp"
@@ -63,9 +63,9 @@ const Services = () => {
             />
           </li>
 
-          <li className={s.item__}>
+          <li className={`${s.item5} ${s.item}`}>
             <img
-              className={s.img__}
+              className={s.img_5}
               src={services_facebook}
               srcSet={`${services_facebook2x} 2x`}
               type="image/webp"
@@ -73,9 +73,9 @@ const Services = () => {
             />
           </li>
 
-          <li className={s.item__}>
+          <li className={`${s.item6} ${s.item}`}>
             <img
-              className={s.img__}
+              className={s.img__6}
               src={services_telegram}
               srcSet={`${services_telegram2x} 2x`}
               type="image/webp"
@@ -83,9 +83,9 @@ const Services = () => {
             />
           </li>
 
-          <li className={s.item__}>
+          <li className={`${s.item7} ${s.item}`}>
             <img
-              className={s.img__}
+              className={s.img__7}
               src={services_google_maps}
               srcSet={`${services_google_maps2x} 2x`}
               type="image/webp"
@@ -93,9 +93,9 @@ const Services = () => {
             />
           </li>
           {/* RIGHTH SIDE */}
-          <li className={s.item__}>
+          <li className={`${s.item8} ${s.item}`}>
             <img
-              className={s.img__}
+              className={s.img__8}
               src={services_google_maps}
               srcSet={`${services_google_maps2x} 2x`}
               type="image/webp"
@@ -103,9 +103,9 @@ const Services = () => {
             />
           </li>
 
-          <li className={s.item__}>
+          <li className={`${s.item9} ${s.item}`}>
             <img
-              className={s.img__}
+              className={s.img__9}
               src={services_street_view}
               srcSet={`${services_street_view2x} 2x`}
               type="image/webp"
@@ -113,9 +113,9 @@ const Services = () => {
             />
           </li>
 
-          <li className={s.item__}>
+          <li className={`${s.item10} ${s.item}`}>
             <img
-              className={s.img__}
+              className={s.img__10}
               src={services_linkedin}
               srcSet={`${services_linkedin2x} 2x`}
               type="image/webp"
@@ -123,9 +123,9 @@ const Services = () => {
             />
           </li>
 
-          <li className={s.item__}>
+          <li className={`${s.item11} ${s.item}`}>
             <img
-              className={s.img__}
+              className={s.img__11}
               src={services_google_maps}
               srcSet={`${services_google_maps2x} 2x`}
               type="image/webp"
@@ -133,9 +133,9 @@ const Services = () => {
             />
           </li>
 
-          <li className={s.item__}>
+          <li className={`${s.item12} ${s.item}`}>
             <img
-              className={s.img__}
+              className={s.img__12}
               src={services_google_maps}
               srcSet={`${services_google_maps2x} 2x`}
               type="image/webp"
@@ -143,9 +143,9 @@ const Services = () => {
             />
           </li>
 
-          <li className={s.item__}>
+          <li className={`${s.item13} ${s.item}`}>
             <img
-              className={s.img__}
+              className={s.img__13}
               src={services_instagram}
               srcSet={`${services_instagram2x} 2x`}
               type="image/webp"
@@ -153,9 +153,9 @@ const Services = () => {
             />
           </li>
 
-          <li className={s.item__}>
+          <li className={`${s.item14} ${s.item}`}>
             <img
-              className={s.img__}
+              className={s.img__14}
               src={services_google_maps}
               srcSet={`${services_google_maps2x} 2x`}
               type="image/webp"
@@ -164,8 +164,10 @@ const Services = () => {
           </li>
         </ul>
 
-        <h2 className={s.title}>30+</h2>
-        <h3 className={s.under__title}>We work with such services</h3>
+        <div className={s.title__container}>
+          <h2 className={s.title}>30+</h2>
+          <h3 className={s.under__title}>We work with such services</h3>
+        </div>
       </div>
     </section>
   );

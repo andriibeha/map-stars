@@ -5,12 +5,21 @@
   border: none;
   cursor: pointer;
 
+  display: flex;
+  align-items: center;
+
   &__accent__color {
     background: variables.$liner;
   }
 
   &__fecond__color {
     background: variables.$second-color;
+  }
+
+  &__flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 

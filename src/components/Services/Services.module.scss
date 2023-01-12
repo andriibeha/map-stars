@@ -1,13 +1,16 @@
 @use "../../scss//utils/variables";
 
 .section {
-  max-width: 1570px;
   padding-right: 15px;
   padding-left: 15px;
+
+  margin-bottom: 160px;
 }
 
 .container {
   position: relative;
+
+  height: 663px;
 
   display: flex;
   align-items: center;
@@ -16,4 +19,231 @@
   background-image: url("../../assets//images/services/services_earth.webp");
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.title__container {
+  text-align: center;
+}
+
+.title {
+  font-size: 230px;
+  line-height: 297px;
+}
+
+.under__title {
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 59px;
+
+  color: variables.$second-color;
+
+  width: 424px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: variables.$white;
+  border: none;
+  border-radius: 50%;
+
+  box-shadow: 0px 0px 36px rgba(0, 0, 0, 0.06);
+
+  &1 {
+    width: 105px;
+    height: 105px;
+
+    position: absolute;
+    top: 13px;
+    right: 1380px;
+  }
+
+  &2 {
+    width: 111px;
+    height: 111px;
+
+    position: absolute;
+    top: 0;
+    right: 1066px;
+  }
+
+  &3 {
+    width: 97px;
+    height: 98px;
+
+    position: absolute;
+    top: 183px;
+    right: 1223px;
+  }
+
+  &4 {
+    width: 149px;
+    height: 149px;
+
+    position: absolute;
+    top: 236px;
+    right: 1436px;
+  }
+
+  &5 {
+    width: 117px;
+    height: 118px;
+
+    position: absolute;
+    top: 385px;
+    right: 1134px;
+  }
+
+  &6 {
+    width: 139px;
+    height: 139px;
+
+    position: absolute;
+    top: 455px;
+    right: 1359px;
+  }
+
+  &7 {
+    width: 82px;
+    height: 82px;
+
+    position: absolute;
+    top: 581px;
+    right: 1182px;
+  }
+
+  &8 {
+    width: 77px;
+    height: 77px;
+
+    position: absolute;
+    top: 13px;
+    right: 432px;
+  }
+
+  &9 {
+    width: 127px;
+    height: 127px;
+
+    position: absolute;
+    top: 0;
+    right: 30px;
+  }
+
+  &10 {
+    width: 133px;
+    height: 133px;
+
+    position: absolute;
+    top: 111px;
+    right: 224px;
+  }
+
+  &11 {
+    width: 135px;
+    height: 135px;
+
+    position: absolute;
+    top: 250px;
+    right: 0;
+  }
+
+  &12 {
+    width: 76px;
+    height: 77px;
+
+    position: absolute;
+    top: 336px;
+    right: 241px;
+  }
+
+  &13 {
+    width: 117px;
+    height: 117px;
+
+    position: absolute;
+    top: 475px;
+    right: 330px;
+  }
+
+  &14 {
+    width: 143px;
+    height: 143px;
+
+    position: absolute;
+    top: 502px;
+    right: 69px;
+  }
+}
+
+.img__1 {
+  width: 89px;
+  height: 53px;
+}
+
+.img__2 {
+  width: 83px;
+  height: 62px;
+}
+
+.img__3 {
+  width: 74px;
+  height: 70px;
+}
+
+.img__4 {
+  width: 61px;
+  height: 59px;
+}
+
+.img__5 {
+  width: 119x;
+  height: 119px;
+}
+
+.img__6 {
+  width: 120px;
+  height: 63px;
+}
+
+.img__7 {
+  width: 61px;
+  height: 59px;
+}
+
+.img__8 {
+  width: 57px;
+  height: 56px;
+}
+
+.img__9 {
+  width: 84px;
+  height: 66px;
+}
+
+.img__10 {
+  width: 98px;
+  height: 26px;
+}
+
+.img__11 {
+  width: 101px;
+  height: 98px;
+}
+
+.img__12 {
+  width: 57px;
+  height: 55px;
+}
+
+.img__13 {
+  width: 86px;
+  height: 23px;
+}
+
+.img__14 {
+  width: 107px;
+  height: 103px;
 }
