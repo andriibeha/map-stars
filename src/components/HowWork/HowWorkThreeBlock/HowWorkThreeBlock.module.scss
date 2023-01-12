@@ -1,1 +1,35 @@
 @use "../../../scss//utils/variables";
+
+.bg__container {
+  background: #e5fbf1;
+  border-radius: 60px;
+}
+
+.container {
+  margin-top: -88px;
+  padding: 140px 95px 140px 95px;
+}
+
+.flex__container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.images {
+  margin-right: 60px;
+  height: 620px;
+
+  &__first {
+    height: 568px;
+
+    margin-left: 39px;
+  }
+
+  &__second {
+    position: absolute;
+
+    top: 336px;
+    right: 958px;
+  }
+}

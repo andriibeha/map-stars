@@ -7,11 +7,6 @@
 .title {
   text-align: center;
 
-  background: -webkit-linear-gradient(variables.$gradient-color);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-
   margin-bottom: 40px;
 }
 
@@ -21,22 +16,27 @@
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 53px;
   grid-row-gap: 40px;
+
+  height: 578px;
 }
 
 .item__one {
   position: relative;
+  height: 257px;
 
   grid-area: 1 / 1 / 2 / 2;
 }
 
 .item__two {
   position: relative;
+  height: 209px;
 
   grid-area: 1 / 2 / 2 / 3;
 }
 
 .item__three {
   position: relative;
+  height: 233px;
 
   grid-area: 1 / 3 / 2 / 4;
 
@@ -45,18 +45,21 @@
 
 .item__four {
   position: relative;
+  height: 233px;
 
   grid-area: 2 / 1 / 3 / 2;
 }
 
 .item__five {
   position: relative;
+  height: 257px;
 
   grid-area: 2 / 2 / 3 / 3;
 }
 
 .item__six {
   position: relative;
+  height: 281px;
 
   grid-area: 2 / 3 / 3 / 4;
 

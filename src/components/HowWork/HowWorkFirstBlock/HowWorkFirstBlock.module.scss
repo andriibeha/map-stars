@@ -1,4 +1,54 @@
 @use "../../../scss//utils/variables";
 
+.bg__container {
+  background: #fff7f8;
+  border-radius: 60px;
+}
+
 .container {
+  padding: 80px 95px 133px 95px;
+}
+
+.titcle__center {
+  text-align: center;
+}
+
+.title {
+  font-size: 55px;
+  line-height: 71px;
+
+  margin-bottom: 12px;
+}
+
+.under__title {
+  font-size: 22px;
+  line-height: 28px;
+
+  color: variables.$second-color;
+
+  margin-bottom: 46px;
+}
+
+.flex__container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.images {
+  position: relative;
+  height: 620px;
+
+  &__first {
+    height: 568px;
+  }
+
+  &__second {
+    position: absolute;
+
+    top: 289px;
+    left: 128px;
+  }
+
+  margin-right: 99px;
 }

@@ -1,0 +1,19 @@
+@use "../../scss//utils/variables";
+
+.section {
+  max-width: 1570px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.container {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("../../assets//images/services/services_earth.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+}
