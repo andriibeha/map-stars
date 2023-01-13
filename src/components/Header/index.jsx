@@ -3,7 +3,7 @@ import logo from "../../assets/images/logo.png";
 import icon from "../../assets/images/sprites.svg";
 import Button from "../Button";
 
-const Header = () => {
+const Header = ({ onClickButton }) => {
   return (
     <header className={s.header}>
       <div className={s.header__container}>
@@ -51,7 +51,7 @@ const Header = () => {
           </svg>
         </div>
 
-        <Button padding="18px 40px" bg={true} />
+        <Button padding="18px 40px" bg={true} onClick={onClickButton} />
       </div>
     </header>
   );

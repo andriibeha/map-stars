@@ -1,0 +1,107 @@
+@use "../../scss//utils/variables";
+
+.darkBG {
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+
+  left: 0;
+  top: 0;
+  position: fixed;
+
+  animation-name: darkBG;
+  animation-duration: 0.5s;
+
+  z-index: 100;
+}
+
+@keyframes darkBG {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.rigthSide {
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  animation-name: rigthSide;
+  animation-duration: 0.5s;
+
+  z-index: 1000;
+}
+
+@keyframes rigthSide {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.modal {
+  width: 500px;
+  height: 830px;
+  background: white;
+  color: white;
+  z-index: 10;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+}
+
+.modalHeader {
+  padding-top: 120px;
+  margin-left: 50px;
+}
+
+.heading {
+  font-size: 16px;
+  line-height: 21px;
+
+  margin-bottom: 10px;
+}
+
+.unnedHeading {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 46px;
+
+  color: #111a45;
+
+  margin-bottom: 30px;
+}
+
+.closeBtn {
+  cursor: pointer;
+  border: none;
+  background-color: inherit;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+.input {
+  width: 400px;
+  padding: 16px 0 15px 29px;
+
+  font-size: 16px;
+  line-height: 21px;
+  color: #111a45;
+
+  border: none;
+  border-radius: 30px;
+  background: #f4f4f4;
+
+  margin-bottom: 30px;
+}
+
+.message {
+  width: 400px;
+  height: 120px;
+  overflow: hidden;
+  resize: none;
+}

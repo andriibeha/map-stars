@@ -6,7 +6,7 @@ import img2_2x from "../../assets/images/setting/setting_2_2x.webp";
 import { useState } from "react";
 
 const Setting = () => {
-  const [active, setActive] = useState(false);
+  const [active, setActive] = useState(true);
 
   const onButtonClick = (e) => {
     const target = e.currentTarget;

@@ -1,7 +1,7 @@
 import s from "./Button.module.scss";
 
 const Button = (props) => {
-  const { text, padding, bg, figure } = props;
+  const { text, padding, bg, figure, onClick, type = "button" } = props;
 
   let styles = {
     padding: padding,
@@ -11,7 +11,8 @@ const Button = (props) => {
 
   return (
     <button
-      type="button"
+      onClick={onClick}
+      type={type}
       className={`${s.button} ${
         bg ? s.button__accent__color : s.button__fecond__color
       } `}

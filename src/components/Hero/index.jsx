@@ -25,7 +25,7 @@ import hero_arrow_r from "../../assets/images/hero/hero_arrow_r.webp";
 import WhiteCircle from "../WhiteCircle";
 import Button from "../Button";
 
-const Hero = () => {
+const Hero = ({ onClickButton }) => {
   return (
     <section className="section">
       <div className={s.container}>
@@ -38,7 +38,12 @@ const Hero = () => {
           <p className={s.text}>
             Get new customers regularly with the help of modern technologies
           </p>
-          <Button padding="22px 50px" bg={false} figure={hero_arrow_r} />
+          <Button
+            padding="22px 50px"
+            bg={false}
+            figure={hero_arrow_r}
+            onClick={onClickButton}
+          />
         </div>
 
         <div className={s.images}>

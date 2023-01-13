@@ -2,7 +2,7 @@ import Card from "./Card";
 import s from "./Packages.module.scss";
 import { card1, card2, card3, card4 } from "./packagesArray";
 
-const Packages = () => {
+const Packages = ({ onClickButton }) => {
   return (
     <section className="section">
       <div className={s.container}>
@@ -18,6 +18,7 @@ const Packages = () => {
                 bodyTitle="The package includes:"
                 packagesTextArray={card1}
                 headerBg="#F4495C"
+                onClickButton={onClickButton}
               />
             </li>
 
@@ -29,6 +30,7 @@ const Packages = () => {
                 bodyTitle="The package includes:"
                 packagesTextArray={card2}
                 headerBg="#F65859"
+                onClickButton={onClickButton}
               />
             </li>
 
@@ -40,6 +42,7 @@ const Packages = () => {
                 bodyTitle="The package includes:"
                 packagesTextArray={card3}
                 headerBg="#F76B55"
+                onClickButton={onClickButton}
               />
             </li>
 
@@ -51,6 +54,7 @@ const Packages = () => {
                 bodyTitle="The package includes:"
                 packagesTextArray={card4}
                 headerBg="#F98051"
+                onClickButton={onClickButton}
               />
             </li>
           </ul>

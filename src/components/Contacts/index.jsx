@@ -1,6 +1,6 @@
 import s from "./Contacts.module.scss";
 
-export const Contacts = () => {
+export const Contacts = ({ onClickButton }) => {
   return (
     <section className="section__small">
       <div className={s.container}>
@@ -50,7 +50,7 @@ export const Contacts = () => {
           </div>
 
           <div className={s.circle}>
-            <button className={s.button} type="button">
+            <button className={s.button} type="button" onClick={onClickButton}>
               Get started
             </button>
           </div>

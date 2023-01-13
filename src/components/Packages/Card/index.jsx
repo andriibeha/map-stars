@@ -11,6 +11,7 @@ const Card = (props) => {
     bodyTitle = "",
     packagesTextArray,
     headerBg = "#F4495C",
+    onClickButton,
   } = props;
 
   return (
@@ -46,7 +47,7 @@ const Card = (props) => {
           </div>
 
           <div className={s.button}>
-            <Button padding="18px 66px" bg={true} />
+            <Button padding="18px 66px" bg={true} onClick={onClickButton} />
           </div>
         </div>
       </li>
