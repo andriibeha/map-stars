@@ -1,0 +1,20 @@
+@use "../../scss//utils/variables";
+
+.settings__item__button__active {
+  background: -webkit-linear-gradient(variables.$gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.setiing__item__button__active::after {
+  content: "";
+  width: 100%;
+  border: 2px solid #f33f5e;
+
+  position: absolute;
+  bottom: -11px;
+  left: 0;
+
+  z-index: 2;
+}

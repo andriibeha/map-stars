@@ -1,0 +1,58 @@
+@use "../../scss//utils/variables";
+
+.container {
+  position: relative;
+  margin-top: 92px;
+  margin-bottom: 54px;
+
+  &__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.container::before {
+  content: "";
+  width: 100%;
+  border: 1px solid #e2e6ec;
+
+  position: absolute;
+  top: -46px;
+}
+
+.button__list {
+  display: flex;
+  align-items: center;
+}
+
+.button__item {
+  margin-right: 50px;
+}
+
+.button__item:last-child {
+  margin-right: 0;
+}
+
+.button__link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+
+  color: variables.$second-color;
+
+  cursor: pointer;
+}
+
+.icon__list {
+  display: flex;
+  align-items: center;
+}
+
+.icon__item {
+  margin-right: 26px;
+}
+
+.icon__item:last-child {
+  margin-right: 0;
+}

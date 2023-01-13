@@ -1,0 +1,105 @@
+@use "../../scss//utils/variables";
+
+.container {
+  position: relative;
+  background-color: variables.$second-color;
+  border: none;
+  border-radius: 50px;
+
+  height: 660px;
+
+  margin-bottom: 160px;
+}
+
+.description__container {
+  padding: 60px 705px 114px 95px;
+}
+
+.title {
+  font-size: 50px;
+  line-height: 64px;
+
+  margin-bottom: 20px;
+}
+
+.list__button {
+  display: flex;
+  align-items: center;
+
+  position: relative;
+
+  margin-bottom: 33px;
+}
+
+.list__button::after {
+  content: "";
+  width: 100%;
+  border: 1px solid #303c77;
+
+  position: absolute;
+  bottom: -11px;
+}
+
+.item__button {
+  position: relative;
+
+  margin-right: 55px;
+}
+
+.item__button:last-child {
+  margin-right: 0;
+}
+
+.item__button__active {
+  background: -webkit-linear-gradient(variables.$gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.item__button__active::after {
+  content: "";
+  width: 100%;
+  border: 2px solid #f33f5e;
+
+  position: absolute;
+  bottom: -11px;
+  left: 0;
+
+  z-index: 2;
+}
+
+.item__button button {
+  border: none;
+  cursor: pointer;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+
+  background-color: inherit;
+
+  color: variables.$white;
+}
+
+.text {
+  color: #ffffff;
+
+  margin-bottom: 18px;
+}
+
+.text:last-child {
+  margin-bottom: 0;
+}
+
+.img1 {
+  position: absolute;
+  top: 75px;
+  right: 227px;
+}
+
+.img2 {
+  position: absolute;
+  top: 506px;
+  right: 90px;
+}
