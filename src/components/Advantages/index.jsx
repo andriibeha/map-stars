@@ -26,6 +26,7 @@ const Advantages = () => {
               srcSet={`${advantages_atom2x} 2x`}
               type="image/webp"
               alt={advantages_atom}
+              loading="lazy"
             />
 
             <h3 className={s.item__title}>Modern technologies</h3>
@@ -45,6 +46,7 @@ const Advantages = () => {
               srcSet={`${advantages_price2x} 2x`}
               type="image/webp"
               alt={advantages_price}
+              loading="lazy"
             />
 
             <h3 className={s.item__title}>Affordable price</h3>
@@ -62,6 +64,7 @@ const Advantages = () => {
               srcSet={`${advantages_implementaion2x} 2x`}
               type="image/webp"
               alt={advantages_implementaion}
+              loading="lazy"
             />
 
             <h3 className={s.item__title}>Ease of implementation</h3>
@@ -80,6 +83,7 @@ const Advantages = () => {
               srcSet={`${advantages_time2x} 2x`}
               type="image/webp"
               alt={advantages_time}
+              loading="lazy"
             />
 
             <h3 className={s.item__title}>An experience</h3>
@@ -98,6 +102,7 @@ const Advantages = () => {
               srcSet={`${advantages_automation2x} 2x`}
               type="image/webp"
               alt={advantages_automation}
+              loading="lazy"
             />
 
             <h3 className={s.item__title}>Automation</h3>
@@ -116,6 +121,7 @@ const Advantages = () => {
               srcSet={`${advantages_like2x} 2x`}
               type="image/webp"
               alt={advantages_like}
+              loading="lazy"
             />
 
             <h3 className={s.item__title}>Efficiency</h3>

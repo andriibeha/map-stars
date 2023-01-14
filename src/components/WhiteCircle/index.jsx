@@ -31,6 +31,7 @@ const WhiteCircle = (props) => {
           type="image/webp"
           alt={img_src}
           style={{ width: `${img_width}px` }}
+          loading="lazy"
         />
       </div>
     </div>

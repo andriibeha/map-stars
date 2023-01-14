@@ -20,7 +20,9 @@ const Button = (props) => {
     >
       <div className={s.flex__container}>
         <p className={s.text}>{text ? text : "Get started"}</p>
-        {figure && <img className={s.figure} src={figure} alt={figure} />}
+        {figure && (
+          <img className={s.figure} src={figure} alt={figure} loading="lazy" />
+        )}
       </div>
     </button>
   );

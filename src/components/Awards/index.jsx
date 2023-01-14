@@ -34,6 +34,7 @@ const Awards = () => {
               srcSet={`${img1_2x} 2x`}
               type="image/webp"
               alt={img1}
+              loading="lazy"
             />
           </li>
 
@@ -44,6 +45,7 @@ const Awards = () => {
               srcSet={`${img2_2x} 2x`}
               type="image/webp"
               alt={img2}
+              loading="lazy"
             />
           </li>
 
@@ -54,6 +56,7 @@ const Awards = () => {
               srcSet={`${img3_2x} 2x`}
               type="image/webp"
               alt={img3}
+              loading="lazy"
             />
           </li>
 
@@ -64,6 +67,7 @@ const Awards = () => {
               srcSet={`${img4_2x} 2x`}
               type="image/webp"
               alt={img4}
+              loading="lazy"
             />
           </li>
 
@@ -74,6 +78,7 @@ const Awards = () => {
               srcSet={`${img5_2x} 2x`}
               type="image/webp"
               alt={img5}
+              loading="lazy"
             />
           </li>
 
@@ -84,6 +89,7 @@ const Awards = () => {
               srcSet={`${img6_2x} 2x`}
               type="image/webp"
               alt={img6}
+              loading="lazy"
             />
           </li>
 
@@ -94,6 +100,7 @@ const Awards = () => {
               srcSet={`${img7_2x} 2x`}
               type="image/webp"
               alt={img7}
+              loading="lazy"
             />
           </li>
 
@@ -104,6 +111,7 @@ const Awards = () => {
               srcSet={`${img8_2x} 2x`}
               type="image/webp"
               alt={img8}
+              loading="lazy"
             />
           </li>
         </ul>

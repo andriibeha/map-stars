@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="section__small">
       <div className={s.container}>
         <div className={s.container__flex}>
-          <img src={logo} alt="logo" className={s.logo} />
+          <img src={logo} alt="logo" className={s.logo} loading="lazy" />
           <ul className={s.button__list}>
             <li className={s.button__item}>
               <a href="/privacy-policy" className={s.button__link}>

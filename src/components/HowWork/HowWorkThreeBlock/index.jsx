@@ -16,6 +16,7 @@ const HowWorkThreeBlock = () => {
               srcSet={`${how_work_5_2x} 2x`}
               type="image/webp"
               alt={how_work_5}
+              loading="lazy"
             />
 
             <img
@@ -24,6 +25,7 @@ const HowWorkThreeBlock = () => {
               srcSet={`${how_work_6_2x} 2x`}
               type="image/webp"
               alt={how_work_6}
+              loading="lazy"
             />
           </div>
 

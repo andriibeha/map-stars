@@ -8,7 +8,7 @@ const Header = ({ onClickButton }) => {
     <header className={s.header}>
       <div className={s.header__container}>
         <a href="#" className={s.logo}>
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="logo" loading="lazy" />
         </a>
 
         <nav className={s.navigation}>

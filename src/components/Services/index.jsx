@@ -30,6 +30,7 @@ const Services = () => {
               srcSet={`${services_twiter2x} 2x`}
               type="image/webp"
               alt={services_twiter}
+              loading="lazy"
             />
           </li>
 
@@ -40,6 +41,7 @@ const Services = () => {
               srcSet={`${services_whatsap2x} 2x`}
               type="image/webp"
               alt={services_whatsap}
+              loading="lazy"
             />
           </li>
 
@@ -50,6 +52,7 @@ const Services = () => {
               srcSet={`${services_google_maps2x} 2x`}
               type="image/webp"
               alt={services_google_maps}
+              loading="lazy"
             />
           </li>
 
@@ -60,6 +63,7 @@ const Services = () => {
               srcSet={`${services_booking2x} 2x`}
               type="image/webp"
               alt={services_booking}
+              loading="lazy"
             />
           </li>
 
@@ -70,6 +74,7 @@ const Services = () => {
               srcSet={`${services_facebook2x} 2x`}
               type="image/webp"
               alt={services_facebook}
+              loading="lazy"
             />
           </li>
 
@@ -80,6 +85,7 @@ const Services = () => {
               srcSet={`${services_telegram2x} 2x`}
               type="image/webp"
               alt={services_telegram}
+              loading="lazy"
             />
           </li>
 
@@ -90,6 +96,7 @@ const Services = () => {
               srcSet={`${services_google_maps2x} 2x`}
               type="image/webp"
               alt={services_google_maps}
+              loading="lazy"
             />
           </li>
           {/* RIGHTH SIDE */}
@@ -100,6 +107,7 @@ const Services = () => {
               srcSet={`${services_google_maps2x} 2x`}
               type="image/webp"
               alt={services_google_maps}
+              loading="lazy"
             />
           </li>
 
@@ -110,6 +118,7 @@ const Services = () => {
               srcSet={`${services_street_view2x} 2x`}
               type="image/webp"
               alt={services_street_view}
+              loading="lazy"
             />
           </li>
 
@@ -120,6 +129,7 @@ const Services = () => {
               srcSet={`${services_linkedin2x} 2x`}
               type="image/webp"
               alt={services_linkedin}
+              loading="lazy"
             />
           </li>
 
@@ -130,6 +140,7 @@ const Services = () => {
               srcSet={`${services_google_maps2x} 2x`}
               type="image/webp"
               alt={services_google_maps}
+              loading="lazy"
             />
           </li>
 
@@ -140,6 +151,7 @@ const Services = () => {
               srcSet={`${services_google_maps2x} 2x`}
               type="image/webp"
               alt={services_google_maps}
+              loading="lazy"
             />
           </li>
 
@@ -150,6 +162,7 @@ const Services = () => {
               srcSet={`${services_instagram2x} 2x`}
               type="image/webp"
               alt={services_instagram}
+              loading="lazy"
             />
           </li>
 
@@ -160,6 +173,7 @@ const Services = () => {
               srcSet={`${services_google_maps2x} 2x`}
               type="image/webp"
               alt={services_google_maps}
+              loading="lazy"
             />
           </li>
         </ul>

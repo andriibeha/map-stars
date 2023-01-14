@@ -103,6 +103,7 @@ const Setting = () => {
           srcSet={`${img1_2x} 2x`}
           type="image/webp"
           alt={img1}
+          loading="lazy"
         />
 
         <img
@@ -111,6 +112,7 @@ const Setting = () => {
           srcSet={`${img2_2x} 2x`}
           type="image/webp"
           alt={img2}
+          loading="lazy"
         />
       </div>
     </section>

@@ -13,6 +13,7 @@ const Social = () => {
             srcSet={`${img2x} 2x`}
             type="image/webp"
             alt={img}
+            loading="lazy"
           />
         </div>
 

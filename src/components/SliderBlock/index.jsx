@@ -42,6 +42,7 @@ const SliderBlock = () => {
                     type="image/webp"
                     alt={sliderImg1}
                     height={273}
+                    loading="lazy"
                   />
 
                   <img
@@ -51,6 +52,7 @@ const SliderBlock = () => {
                     type="image/webp"
                     alt={sliderImg2}
                     height={273}
+                    loading="lazy"
                   />
 
                   <div className={s.slider__card2}>
@@ -68,6 +70,7 @@ const SliderBlock = () => {
                       alt={sliderImgCenter}
                       width={66}
                       height={77}
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -124,6 +127,7 @@ const SliderBlock = () => {
                     type="image/webp"
                     alt={sliderImg1}
                     height={273}
+                    loading="lazy"
                   />
 
                   <img
@@ -133,6 +137,7 @@ const SliderBlock = () => {
                     type="image/webp"
                     alt={sliderImg2}
                     height={273}
+                    loading="lazy"
                   />
 
                   <div className={s.slider__card2}>
@@ -150,6 +155,7 @@ const SliderBlock = () => {
                       alt={sliderImgCenter}
                       width={66}
                       height={77}
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -206,6 +212,7 @@ const SliderBlock = () => {
                     type="image/webp"
                     alt={sliderImg1}
                     height={273}
+                    loading="lazy"
                   />
 
                   <img
@@ -215,6 +222,7 @@ const SliderBlock = () => {
                     type="image/webp"
                     alt={sliderImg2}
                     height={273}
+                    loading="lazy"
                   />
 
                   <div className={s.slider__card2}>
@@ -232,6 +240,7 @@ const SliderBlock = () => {
                       alt={sliderImgCenter}
                       width={66}
                       height={77}
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -288,6 +297,7 @@ const SliderBlock = () => {
                     type="image/webp"
                     alt={sliderImg1}
                     height={273}
+                    loading="lazy"
                   />
 
                   <img
@@ -297,6 +307,7 @@ const SliderBlock = () => {
                     type="image/webp"
                     alt={sliderImg2}
                     height={273}
+                    loading="lazy"
                   />
 
                   <div className={s.slider__card2}>
@@ -314,6 +325,7 @@ const SliderBlock = () => {
                       alt={sliderImgCenter}
                       width={66}
                       height={77}
+                      loading="lazy"
                     />
                   </div>
                 </div>

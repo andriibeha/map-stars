@@ -35,6 +35,7 @@ const Technology = () => {
               srcSet={`${technology_1_2x} 2x`}
               type="image/webp"
               alt={technology_1}
+              loading="lazy"
             />
             <img
               className={s.img__two}
@@ -42,6 +43,7 @@ const Technology = () => {
               srcSet={`${technology_2_2x} 2x`}
               type="image/webp"
               alt={technology_2}
+              loading="lazy"
             />
             <img
               className={s.img__three}
@@ -49,6 +51,7 @@ const Technology = () => {
               srcSet={`${technology_3_2x} 2x`}
               type="image/webp"
               alt={technology_3}
+              loading="lazy"
             />
             <img
               className={s.img__four}
@@ -56,6 +59,7 @@ const Technology = () => {
               srcSet={`${technology_4_2x} 2x`}
               type="image/webp"
               alt={technology_4}
+              loading="lazy"
             />
             <img
               className={s.arrow__l}
@@ -63,6 +67,7 @@ const Technology = () => {
               srcSet={`${technology_line_l_2x} 2x`}
               type="image/webp"
               alt={technology_line_l}
+              loading="lazy"
             />
             <img
               className={s.arrow__r}
@@ -70,6 +75,7 @@ const Technology = () => {
               srcSet={`${technology_line_r_2x} 2x`}
               type="image/webp"
               alt={technology_4}
+              loading="lazy"
             />
           </div>
 

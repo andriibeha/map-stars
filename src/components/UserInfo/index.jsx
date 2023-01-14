@@ -29,6 +29,7 @@ const UserInfo = () => {
             srcSet={`${img12x} 2x`}
             type="image/webp"
             alt={img1}
+            loading="lazy"
           />
         </div>
       </div>

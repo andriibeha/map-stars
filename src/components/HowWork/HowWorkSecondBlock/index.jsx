@@ -54,6 +54,7 @@ const HowWorkSecondBlock = () => {
               srcSet={`${how_work_3_2x} 2x`}
               type="image/webp"
               alt={how_work_3}
+              loading="lazy"
             />
 
             <img
@@ -62,6 +63,7 @@ const HowWorkSecondBlock = () => {
               srcSet={`${how_work_4_2x} 2x`}
               type="image/webp"
               alt={how_work_4}
+              loading="lazy"
             />
           </div>
         </div>
