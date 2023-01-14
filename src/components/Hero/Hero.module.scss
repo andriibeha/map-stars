@@ -53,7 +53,21 @@
   top: 136px;
   right: 162px;
 
+  animation: elipse__first 4s alternate infinite ease-in;
+
   z-index: 1;
+}
+
+@keyframes elipse__first {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1.1);
+  }
 }
 
 .elipse__second {
@@ -70,7 +84,21 @@
   top: 33px;
   right: 58px;
 
+  animation: elipse__second 4s alternate infinite ease-in;
+
   z-index: 1;
+}
+
+@keyframes elipse__second {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1.1);
+  }
 }
 
 .elipse__three {
@@ -87,7 +115,21 @@
   top: -61px;
   right: -35px;
 
+  animation: elipse__three 4s alternate infinite ease-in;
+
   z-index: 1;
+}
+
+@keyframes elipse__three {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1.1);
+  }
 }
 
 .images {
@@ -106,61 +148,151 @@
   &__street_view {
     position: absolute;
 
+    animation: street_view 3s alternate infinite ease-in;
+
     right: 487px;
+  }
+
+  @keyframes street_view {
+    0% {
+      transform: scale(0.8);
+    }
+    100% {
+      transform: scale(1.2);
+    }
   }
 
   &__google_maps {
     position: absolute;
 
+    animation: google_maps 3s alternate infinite ease-in;
+
     top: 105px;
     right: 492px;
+  }
+
+  @keyframes google_maps {
+    0% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(0.9);
+    }
   }
 
   &__twitter {
     position: absolute;
 
+    animation: twitter 3s alternate infinite ease-in;
+
     top: 220px;
     right: 631px;
+  }
+
+  @keyframes twitter {
+    0% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(0.9);
+    }
   }
 
   &__telegram {
     position: absolute;
 
+    animation: telegram 3s alternate infinite ease-in;
+
     top: 265px;
     right: 497px;
+  }
+
+  @keyframes telegram {
+    0% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1.1);
+    }
   }
 
   &__google {
     position: absolute;
 
+    animation: google 3s alternate infinite ease-in;
+
     top: 384px;
     right: 573px;
+  }
+
+  @keyframes google {
+    0% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(0.9);
+    }
   }
 
   /* RIGTH SIDE */
   &__faceboock {
     position: absolute;
 
+    animation: faceboock 3s alternate infinite ease-in;
+
     top: 51px;
     right: 107px;
+  }
+
+  @keyframes faceboock {
+    0% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(0.9);
+    }
   }
 
   &__linkedin {
     position: absolute;
 
+    animation: linkedin 3s alternate infinite ease-in;
+
     top: 193px;
     right: 187px;
+  }
+
+  @keyframes linkedin {
+    0% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(0.9);
+    }
   }
 
   &__watsap {
     position: absolute;
 
+    animation: watsap 3s alternate infinite ease-in;
+
     top: 164px;
     right: 0;
   }
 
+  @keyframes watsap {
+    0% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+
   &__google_ads {
     position: absolute;
+
+    animation: google_ads 3s alternate infinite ease-in;
 
     top: 294px;
     right: 89px;
@@ -168,11 +300,31 @@
     z-index: 4;
   }
 
+  @keyframes google_ads {
+    0% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+
   &__instagram {
     position: absolute;
 
+    animation: instagram 3s alternate infinite ease-in;
+
     top: 427px;
     right: 0;
+  }
+
+  @keyframes instagram {
+    0% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(0.9);
+    }
   }
 
   /* GIRL IMG */
