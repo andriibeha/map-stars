@@ -1,5 +1,5 @@
 import s from "./Header.module.scss";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/logo.webp";
 import icon from "../../assets/images/sprites.svg";
 import Button from "../Button";
 
