@@ -17,7 +17,7 @@ import technology_line_r_2x from "../../assets/images/technology/technology_line
 const Technology = () => {
   return (
     <section className="section__small">
-      <div className={s.container}>
+      <div className={s.container} id="technology">
         <div className={s.action}>
           <img src={action} alt="scroll down" className={s.action__text} />
           <img

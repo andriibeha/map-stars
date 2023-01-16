@@ -15,7 +15,7 @@ import advantages_time2x from "../../assets/images/advantages/advantages_time_2x
 const Advantages = () => {
   return (
     <section className="section__small">
-      <div className={s.container}>
+      <div className={s.container} id="advantages">
         <h2 className={s.title}>Advantages</h2>
 
         <ul className={s.list}>

@@ -5,7 +5,7 @@ import { card1, card2, card3, card4 } from "./packagesArray";
 const Packages = ({ onClickButton }) => {
   return (
     <section className="section">
-      <div className={s.container}>
+      <div className={s.container} id="packages">
         <div className={s.content}>
           <h2 className={s.title}>Packages services</h2>
 

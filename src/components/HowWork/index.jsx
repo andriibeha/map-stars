@@ -5,7 +5,7 @@ import HowWorkThreeBlock from "./HowWorkThreeBlock";
 
 const HowWork = () => {
   return (
-    <section className="section how-work__margin__bottom">
+    <section className="section how-work__margin__bottom" id="howWork">
       <HowWorkFirstBlock />
       <HowWorkSecondBlock />
       <HowWorkThreeBlock />

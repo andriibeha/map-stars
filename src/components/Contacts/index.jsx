@@ -3,7 +3,7 @@ import s from "./Contacts.module.scss";
 export const Contacts = ({ onClickButton }) => {
   return (
     <section className="section__small">
-      <div className={s.container}>
+      <div className={s.container} id="contacts">
         <div className={s.container__flex}>
           <div className={s.contacts__container}>
             <p className={s.uuper__title}>Ready for take-off?</p>

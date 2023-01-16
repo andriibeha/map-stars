@@ -14,27 +14,27 @@ const Header = ({ onClickButton }) => {
         <nav className={s.navigation}>
           <ul className={s.navigation__list}>
             <li className={s.navigation__item}>
-              <a href="/Technology" className={s.navigation__link}>
+              <a href="#technology" className={s.navigation__link}>
                 Technology
               </a>
             </li>
             <li className={s.navigation__item}>
-              <a href="/Advantages" className={s.navigation__link}>
+              <a href="#advantages" className={s.navigation__link}>
                 Advantages
               </a>
             </li>
             <li className={s.navigation__item}>
-              <a href="/How it works" className={s.navigation__link}>
+              <a href="#howWork" className={s.navigation__link}>
                 How it works
               </a>
             </li>
             <li className={s.navigation__item}>
-              <a href="/Packages" className={s.navigation__link}>
+              <a href="#packages" className={s.navigation__link}>
                 Packages
               </a>
             </li>
             <li className={s.navigation__item}>
-              <a href="/Contact" className={s.navigation__link}>
+              <a href="#contacts" className={s.navigation__link}>
                 Contact
               </a>
             </li>
