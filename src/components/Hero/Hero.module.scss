@@ -10,32 +10,56 @@
 
   position: relative;
 
-  margin-bottom: 120px;
+  margin-bottom: 60px;
+
+  @media (min-width: 1600px) {
+    margin-bottom: 120px;
+  }
 }
 
 .description {
-  margin-left: 95px;
-  padding-top: 170px;
+  margin-left: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
-  width: 479px;
+  margin-right: 30px;
 
-  margin-right: 130px;
+  z-index: 10;
+
+  @media (min-width: 1600px) {
+    margin-left: 95px;
+    padding-top: 170px;
+
+    width: 479px;
+
+    margin-right: 130px;
+  }
 }
 
 .title {
   color: variables.$white;
 
-  margin-bottom: 16px;
+  margin-bottom: 8px;
+
+  @media (min-width: 1600px) {
+    margin-bottom: 16px;
+  }
 }
 
 .text {
   font-weight: 400;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 140%;
 
   color: variables.$white;
 
-  margin-bottom: 26px;
+  margin-bottom: 13px;
+
+  @media (min-width: 1600px) {
+    font-size: 24px;
+
+    margin-bottom: 26px;
+  }
 }
 
 /* ELIPSE */
@@ -133,6 +157,12 @@
 }
 
 .images {
+  display: none;
+
+  @media (min-width: 1600px) {
+    display: block;
+  }
+
   padding-top: 29px;
   margin-right: 65px;
 

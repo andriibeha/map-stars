@@ -6,29 +6,65 @@
   border: none;
   border-radius: 60px;
 
-  margin-bottom: 160px;
+  margin-bottom: 60px;
+
+  @media (min-width: 1600px) {
+    margin-bottom: 160px;
+  }
 }
 
 .content {
-  padding: 80px 95px;
+  padding: 16px 18px;
+
+  @media (min-width: 1600px) {
+    padding: 80px 95px;
+  }
 }
 
 .title {
   text-align: center;
-  font-size: 60px;
-  line-height: 77px;
+  font-size: 24px;
+  line-height: 25px;
 
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+
+  @media (min-width: 1600px) {
+    font-size: 60px;
+    line-height: 77px;
+
+    margin-bottom: 40px;
+  }
 }
 
 .list {
   display: flex;
+
+  flex-wrap: wrap;
+
+  @media (min-width: 1600px) {
+    font-size: 60px;
+    line-height: 77px;
+
+    margin-bottom: 40px;
+
+    flex-wrap: nowrap;
+  }
 }
 
 .item {
-  margin-right: 30px;
+  margin-right: 0;
+
+  margin-bottom: 15px;
+
+  @media (min-width: 1600px) {
+    margin-right: 30px;
+
+    margin-bottom: 0;
+  }
 }
 
 .item:last-child {
   margin-right: 0px;
+
+  margin-bottom: 0;
 }

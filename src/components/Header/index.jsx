@@ -2,8 +2,11 @@ import s from "./Header.module.scss";
 import logo from "../../assets/images/logo.webp";
 import icon from "../../assets/images/sprites.svg";
 import Button from "../Button";
+import windowSize from "../../utils/WindowSize";
 
 const Header = ({ onClickButton }) => {
+  let mobile = windowSize();
+
   return (
     <header className={s.header}>
       <div className={s.header__container}>
@@ -51,7 +54,11 @@ const Header = ({ onClickButton }) => {
           </svg>
         </div>
 
-        <Button padding="18px 40px" bg={true} onClick={onClickButton} />
+        {mobile ? (
+          <Button padding="9px 15px" bg={true} onClick={onClickButton} />
+        ) : (
+          <Button padding="18px 40px" bg={true} onClick={onClickButton} />
+        )}
       </div>
     </header>
   );

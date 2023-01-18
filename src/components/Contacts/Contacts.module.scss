@@ -4,32 +4,55 @@
   margin-bottom: 46px;
 
   &__flex {
-    display: flex;
+    @media (min-width: 1600px) {
+      display: flex;
+    }
   }
 }
 
 .contacts__container {
-  margin-right: 221px;
+  margin-right: 20px;
+
+  @media (min-width: 1600px) {
+    margin-right: 221px;
+  }
 }
 
 .uuper__title {
   font-weight: 500;
-  font-size: 69px;
-  line-height: 89px;
+  font-size: 20px;
+  line-height: 20px;
 
   color: variables.$second-color;
+
+  @media (min-width: 1600px) {
+    font-size: 69px;
+    line-height: 89px;
+  }
 }
 
 .title {
-  font-size: 100px;
-  line-height: 129px;
+  font-size: 30px;
+  line-height: 30px;
 
-  margin-bottom: 19px;
+  margin-bottom: 10px;
+
+  @media (min-width: 1600px) {
+    font-size: 100px;
+    line-height: 129px;
+
+    margin-bottom: 19px;
+  }
 }
 
 .list {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+
+  @media (min-width: 1600px) {
+    flex-wrap: nowrap;
+  }
 }
 
 .item {
@@ -37,23 +60,37 @@
   background: #fff7f8;
   border-radius: 40px;
 
-  padding: 29px 40px;
+  padding: 13px 20px;
 
-  margin-right: 30px;
+  margin-right: 0px;
+
+  margin-bottom: 15px;
+
+  @media (min-width: 1600px) {
+    padding: 29px 40px;
+
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
 }
 
 .item:last-child {
   margin-right: 0;
+  margin-bottom: 0;
 }
 
 .link {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 140%;
 
   color: variables.$second-color;
 
   cursor: pointer;
+
+  @media (min-width: 1600px) {
+    font-size: 18px;
+  }
 
   &__flex {
     display: flex;
@@ -67,6 +104,8 @@
 
 .circle {
   animation: circle 2s alternate infinite ease-in;
+  display: flex;
+  justify-content: center;
 }
 
 @keyframes circle {
@@ -80,16 +119,31 @@
 
 .button {
   border: none;
-  border-radius: 50%;
+  border-radius: 30px;
 
   font-weight: 500;
-  font-size: 30px;
+  font-size: 16px;
   line-height: 100%;
 
-  padding: 113px 45px;
+  padding: 10px 15px;
 
   background: variables.$liner;
   color: variables.$white;
 
   cursor: pointer;
+
+  @media (min-width: 1600px) {
+    border-radius: 50%;
+
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+
+    padding: 113px 45px;
+
+    width: 255px;
+    height: 255px;
+    display: flex;
+    align-items: center;
+  }
 }

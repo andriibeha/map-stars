@@ -3,12 +3,16 @@
 .container {
   position: relative;
 
-  margin-bottom: 160px;
+  margin-bottom: 60px;
+
+  @media (min-width: 1600px) {
+    margin-bottom: 160px;
+  }
 }
 
 .action {
-  width: 113px;
-  height: 113px;
+  width: 60px;
+  height: 60px;
 
   background-color: variables.$white;
 
@@ -21,23 +25,41 @@
 
   position: absolute;
 
-  top: -177px;
+  top: -95px;
   left: 0;
 
+  @media (min-width: 1600px) {
+    width: 113px;
+    height: 113px;
+
+    top: -177px;
+    left: 0;
+  }
+
   &__text {
-    width: 83px;
-    height: 83px;
+    width: 50px;
+    height: 50px;
 
     position: absolute;
 
     animation: action__text 3s alternate infinite ease-in;
+
+    @media (min-width: 1600px) {
+      width: 83px;
+      height: 83px;
+    }
   }
 
   &__arrow {
-    width: 24px;
-    height: 24px;
+    width: 12px;
+    height: 12px;
 
     position: absolute;
+
+    @media (min-width: 1600px) {
+      width: 24px;
+      height: 24px;
+    }
   }
 }
 
@@ -52,6 +74,12 @@
 }
 
 .img {
+  display: none;
+
+  @media (min-width: 1600px) {
+    display: block;
+  }
+
   &__one {
     width: 193px;
     height: 155px;
@@ -126,28 +154,46 @@
 }
 
 .description {
-  margin-left: 730px;
+  @media (min-width: 1600px) {
+    margin-left: 730px;
 
-  padding-top: 50px;
-  padding-bottom: 126px;
+    padding-top: 50px;
+    padding-bottom: 126px;
+  }
 }
 
 .title {
-  margin-bottom: 16px;
+  text-align: center;
+  margin-bottom: 0;
+
+  @media (min-width: 1600px) {
+    text-align: start;
+    margin-bottom: 16px;
+  }
 }
 
 .text__title {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 20px;
 
   margin-bottom: 15px;
+
+  @media (min-width: 1600px) {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 .text {
   font-weight: 400;
-  font-size: 17px;
-  line-height: 26px;
+  font-size: 12px;
+  line-height: 18px;
 
   color: variables.$second-color;
+
+  @media (min-width: 1600px) {
+    font-size: 17px;
+    line-height: 26px;
+  }
 }

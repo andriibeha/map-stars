@@ -23,6 +23,35 @@ const Modal = ({ setIsOpen }) => {
       <div className={styles.rigthSide} ref={rigthSideEl}>
         <div className={styles.modal}>
           <div className={styles.modalHeader}>
+            <div className={styles.mobile}>
+              <ul className={styles.mobile__list}>
+                <li className={styles.mobile__item}>
+                  <a href="#technology" className={styles.mobile__link}>
+                    Technology
+                  </a>
+                </li>
+                <li className={styles.mobile__item}>
+                  <a href="#advantages" className={styles.mobile__link}>
+                    Advantages
+                  </a>
+                </li>
+                <li className={styles.mobile__item}>
+                  <a href="#howWork" className={styles.mobile__link}>
+                    How it works
+                  </a>
+                </li>
+                <li className={styles.mobile__item}>
+                  <a href="#packages" className={styles.mobile__link}>
+                    Packages
+                  </a>
+                </li>
+                <li className={styles.mobile__item}>
+                  <a href="#contacts" className={styles.mobile__link}>
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
             <button className={styles.closeBtn} onClick={onCloseButtonClick}>
               <svg
                 width="26"

@@ -24,8 +24,11 @@ import hero_watsap2x from "../../assets/images/hero/hero_watsap_2x.webp";
 import hero_arrow_r from "../../assets/images/hero/hero_arrow_r.webp";
 import WhiteCircle from "../WhiteCircle";
 import Button from "../Button";
+import windowSize from "../../utils/WindowSize";
 
 const Hero = ({ onClickButton }) => {
+  let mobile = windowSize();
+
   return (
     <section className="section">
       <div className={s.container}>
@@ -38,12 +41,21 @@ const Hero = ({ onClickButton }) => {
           <p className={s.text}>
             Get new customers regularly with the help of modern technologies
           </p>
-          <Button
-            padding="22px 50px"
-            bg={false}
-            figure={hero_arrow_r}
-            onClick={onClickButton}
-          />
+          {mobile ? (
+            <Button
+              padding="11px 15px"
+              bg={false}
+              figure={hero_arrow_r}
+              onClick={onClickButton}
+            />
+          ) : (
+            <Button
+              padding="22px 50px"
+              bg={false}
+              figure={hero_arrow_r}
+              onClick={onClickButton}
+            />
+          )}
         </div>
 
         <div className={s.images}>

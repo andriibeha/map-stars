@@ -1,21 +1,36 @@
 @use "../../scss//utils/variables";
 
 .container {
-  margin-bottom: 160px;
+  margin-bottom: 60px;
+
+  @media (min-width: 1600px) {
+    margin-bottom: 160px;
+  }
 }
 
 .title {
   text-align: center;
-  font-size: 50px;
-  line-height: 64px;
+  font-size: 24px;
+  line-height: 25px;
 
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+
+  @media (min-width: 1600px) {
+    font-size: 50px;
+    line-height: 64px;
+
+    margin-bottom: 30px;
+  }
 }
 
 .slider__container {
   margin-right: auto;
   margin-left: auto;
-  width: 1305px;
+  width: 300px;
+
+  @media (min-width: 1600px) {
+    width: 1305px;
+  }
 }
 
 .slider__item__flex {
@@ -23,15 +38,19 @@
 }
 
 .slider__img__container {
-  position: relative;
+  display: none;
 
-  display: grid;
-  grid-template-columns: repeat(2, 252px);
-  grid-template-rows: repeat(2, 273px);
-  grid-column-gap: 9px;
-  grid-row-gap: 9px;
+  @media (min-width: 1600px) {
+    position: relative;
 
-  margin-right: 61px;
+    display: grid;
+    grid-template-columns: repeat(2, 252px);
+    grid-template-rows: repeat(2, 273px);
+    grid-column-gap: 9px;
+    grid-row-gap: 9px;
+
+    margin-right: 61px;
+  }
 }
 
 .slider__card1 {
@@ -67,8 +86,8 @@
 
 .slider__card__title {
   font-weight: 600;
-  font-size: 55px;
-  line-height: 71px;
+  font-size: 22px;
+  line-height: 22px;
 
   color: variables.$white;
 }
@@ -94,15 +113,15 @@
 }
 
 .slider__description__container {
-  height: 413px;
+  /*   height: 413px; */
 
-  margin-top: 45px;
+  margin-top: 15px;
 }
 
 .description__title {
   font-weight: 600;
-  font-size: 32px;
-  line-height: 41px;
+  font-size: 24px;
+  line-height: 24px;
 
   color: variables.$second-color;
 
@@ -112,7 +131,7 @@
 .description__text {
   color: variables.$second-color;
 
-  margin-bottom: 18px;
+  margin-bottom: 9px;
 }
 
 .description__text:last-child {

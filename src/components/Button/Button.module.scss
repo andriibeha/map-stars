@@ -29,6 +29,10 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
 }
 
 .flex__container {
@@ -38,8 +42,8 @@
 }
 
 .figure {
-  width: 18px;
-  height: 9px;
+  width: 9px;
+  height: 5px;
 
-  margin-left: 12px;
+  margin-left: 6px;
 }

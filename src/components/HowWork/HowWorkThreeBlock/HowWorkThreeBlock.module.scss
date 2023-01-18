@@ -7,7 +7,11 @@
 
 .container {
   margin-top: -88px;
-  padding: 140px 95px 140px 95px;
+  padding: 25px 15px 25px 15px;
+
+  @media (min-width: 1600px) {
+    padding: 140px 95px 140px 95px;
+  }
 }
 
 .flex__container {
@@ -17,6 +21,12 @@
 }
 
 .images {
+  display: none;
+
+  @media (min-width: 1600px) {
+    display: block;
+  }
+
   margin-right: 60px;
   height: 620px;
 

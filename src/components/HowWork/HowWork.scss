@@ -1,32 +1,52 @@
 @use "../../scss//utils/variables";
 
 .how-work__margin__bottom {
-  margin-bottom: 330px;
+  margin-bottom: 80px;
+
+  @media (min-width: 1600px) {
+    margin-bottom: 330px;
+  }
 }
 
 .page__number {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 26px;
 
   color: variables.$pink;
 
-  margin-bottom: 6px;
+  margin-bottom: 0;
+
+  @media (min-width: 1600px) {
+    font-size: 20px;
+    line-height: 26px;
+
+    margin-bottom: 6px;
+  }
 }
 
 .page__title {
   font-weight: 600;
-  font-size: 36px;
-  line-height: 46px;
+  font-size: 20px;
+  line-height: 22px;
 
   color: variables.$second-color;
 
   margin-bottom: 16px;
+
+  @media (min-width: 1600px) {
+    font-size: 36px;
+    line-height: 46px;
+  }
 }
 
 .page__text {
   color: variables.$second-color;
 
-  margin-bottom: 18px;
+  margin-bottom: 9px;
+
+  @media (min-width: 1600px) {
+    margin-bottom: 18px;
+  }
 }
 
 .page__text:last-child {

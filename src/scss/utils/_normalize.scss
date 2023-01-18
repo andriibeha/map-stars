@@ -1,3 +1,5 @@
+@use "../../scss//utils/variables";
+
 * {
   padding: 0;
   margin: 0;
@@ -32,30 +34,44 @@ h5 {
 
 h1 {
   font-weight: 500;
-  font-size: 76px;
+  font-size: 24px;
   line-height: 100%;
+
+  @media (min-width: 1600px) {
+    font-size: 76px;
+  }
 }
 
 p {
   font-weight: 400;
-  font-size: 17px;
+  font-size: 12px;
   line-height: 150%;
-}
 
-h1 {
-  font-weight: 500;
-  font-size: 76px;
-  line-height: 100%;
+  @media (min-width: 1600px) {
+    font-size: 17px;
+  }
 }
 
 h2 {
   font-weight: 600;
-  font-size: 48px;
+  font-size: 22px;
   line-height: 62px;
+
+  @media (min-width: 1600px) {
+    font-size: 48px;
+  }
 }
 
 a {
   text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  background: -webkit-linear-gradient(variables.$gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 @mixin noselect {
